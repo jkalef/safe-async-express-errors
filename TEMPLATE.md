@@ -1,6 +1,0 @@
-- Update README.md
-- Update package.json
-- Remove TEMPLATE.md
-- Remove .git
-- Initialize a new git repository
-- Publish to npm

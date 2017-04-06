@@ -39,7 +39,8 @@ Build:
 
 Publish to npm:
 
-Update the version in `package.json`, then publish using:
+1. Update the version in `package.json`
 
-> npm publish
+2. Build using `npm run build`
 
+3. Publish using `npm publish --access=public`
