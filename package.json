@@ -1,6 +1,6 @@
 {
   "name": "@mcrowe/safe-async-express-errors",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Typesafe wrapper around async express handlers that ensures that asynchronous errors are caught and handled by error-handling middleware.",
   "author": "Mitch Crowe <code@mitchcrowe.com> (http://www.mitchcrowe.com)",
   "license": "ISC",
@@ -9,7 +9,7 @@
     "test": "./node_modules/mocha/bin/mocha -u qunit --recursive -r ./node_modules/ts-node/register test/*",
     "build": "./node_modules/typescript/bin/tsc"
   },
-  "main": "dist/index.js",
+  "main": "lib/index.js",
   "typings": "lib/index",
   "files": [
     "lib/"
